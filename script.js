@@ -7,7 +7,6 @@ function saveNote() {
 		savedNotes = newNote;
 	}
 	localStorage.setItem("notes", savedNotes);
-	alert("Note saved successfully!");
 	document.getElementById("newNote").value = "";
 	displayNotes();
 }
