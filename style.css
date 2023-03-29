@@ -23,7 +23,7 @@ body {
   }
   
   button {
-    background-color: rgb(91, 114, 212);
+    background-color: red;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -57,4 +57,5 @@ body {
   
   #save {
     transform: translateX(-20px);
+    background-color: rgb(91, 114, 212);
   }
